@@ -1,12 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GameDev do Zero</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e5e3dc; 
+    }
+
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      background-color: #e5e3dc;
+    }
+
+   
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #1da13d; 
+      font-family: Georgia, serif;
+    }
+
+    
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #1da13d;
+    }
+
+    /* Botão */
+    .btn-agende {
+      background-color: #1da13d;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn-agende:hover {
+      background-color: #168730;
+    }
+  </style>
 </head>
 <body>
-    
+  <header>
+    <div class="logo">GameDev do Zero</div>
+    <nav>
+      <ul>
+        <li><a href="#">Serviços</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Curso</a></li>
+        <li><a href="#">Quem somos</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Entrar</a></li>
+        <li><a href="#">Carrinho</a></li>
+      </ul>
+    </nav>
+    <button class="btn-agende">Agende agora</button>
+  </header>
 </body>
 </html>
