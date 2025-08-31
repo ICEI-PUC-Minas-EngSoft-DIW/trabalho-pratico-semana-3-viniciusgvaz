@@ -89,10 +89,99 @@
     
   </header>
   <body>
-<img src="Images/print 1.png" height="650px"
+<img src="Images/print 1.png" height="780px"
 
 >
   </body>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos em Destaque</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e5e3dc; 
+      text-align: center;
+    }
 
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+      font-family: Arial, Helvetica, sans-serif, serif;
+      margin: 40px 0;
+    }
+
+    .produtos {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+
+    .produto {
+      text-align: center;
+      max-width: 250px;
+    }
+
+    .produto img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%; 
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .produto h3 {
+      font-size: 18px;
+      margin: 15px 0 5px;
+      font-family: Arial, Helvetica, sans-serif, serif;
+    }
+
+    .produto p {
+      font-size: 16px;
+      color: #333;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <section>
+
+
+    <h2>Produtos em destaque</h2>
+    <div class="produtos">
+      <div class="produto">
+        <img src="images/2d.png" alt="Produto 1">
+        <h3>Desenvolvimento de Jogos 2D</h3>
+        <p>R$ 169,90</p>
+      </div>
+
+
+      
+      <div class="produto">
+        <img src="images/3d.png" alt="Produto 2">
+        <h3>Desenvolvimento de Jogos 3D</h3>
+        <p>R$ 249,90</p>
+      </div>
+
+
+
+      <div class="produto">
+        <img src="images/unity.png" alt="Produto 3">
+        <h3>Desenvolvimento Unity - Jogos 2D, 3D, AR e Metaverso Web</h3>
+        <p>R$ 349,90</p>
+
+
+
+      </div>
+    </div>
+  </section>
+</body>
+</html>
 </body>
 </html>
